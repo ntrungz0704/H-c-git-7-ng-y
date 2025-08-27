@@ -1,2 +1,2 @@
-# H-c-git-7-ng-y
+# Học git 7 ngày
 Hoàn thành khóa học Git cơ bản
