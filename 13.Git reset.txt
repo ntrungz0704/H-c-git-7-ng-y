@@ -1,0 +1,14 @@
+Hủy bỏ commit mới quay lại commit cũ
+
+- git reset --soft < commit id > :
+=> Di chuyển HEAD về vị trí commit
+=> Commit sau đó bị bỏ, nhưng file thay đổi vẫn nằm trong Staging Area ( ss commit lại )
+=> dùng khi muốn gộp commit, chỉnh sửa commit message
+
+
+- git reset < commit id >
+=> Di chuyển HEAD về vị trí commit reset, vẫn giữ tất cả thay đổi của file, nhưng loại bỏ các thay đổi Stage
+
+
+- git reset --hard < commit id >
+=> Di chuyển con trỏ HEAD về vị trí commit reset và loại bỏ tất cả sự thay đổi của file, stage

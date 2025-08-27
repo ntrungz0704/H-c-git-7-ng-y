@@ -1,0 +1,8 @@
+Cũng là kết hợp giống như Merge luôn nhưng mà sẽ ko có theo thứ tự như Merge mà là đi theo 1 đường thẳng
+
+Các câu lệnh
+- git rebase < tên nhánh > : tái cơ sở lại tên nhánh đang đứng và là commit cuối cùng của nhánh đó
+
+- git rebase --continue : tiếp tục áp dụng những gì thay đổi trên câu lệnh trên là git rebase
+
+- git rebase --skip : bỏ qua những thay đổi

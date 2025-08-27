@@ -1,0 +1,13 @@
+- git checkout <commit_hash>
+
+=> dùng để chuyển đổi sang 1 vị trí khác hoặc quay lại commit trước đó
+
+Như hình ảnh trong EX7
+
+=> git checkout gõ thêm vài kí tự đầu tiên xong enter là sẽ quay về commit cũ trước đó và những commit thêm file mới sẽ biến mất
+
+
+
+TRẠNG THÁI:
+
+" detached HEAD state"

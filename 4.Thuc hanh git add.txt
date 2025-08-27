@@ -1,0 +1,18 @@
+3 cái cây
++ HEAD
++ INDEX
++ WORKING DIRECTORY
+
+
+- Những câu lệnh bắt buộc phải nhớ
+
++ git add [ file name(s) ] : thêm tệp tùy chọn 1 hoặc nhiều
++ git add . : thêm tệp tất cả
+
++ git commit -m " Note action " : tạo commit -> repo
+
++ git status : tìm kiếm sự khác biệt giữa 3 CÁI CÂY
+
++ git diff : so sánh với commit cuối cùng
+
++ git log : coi lịch sử

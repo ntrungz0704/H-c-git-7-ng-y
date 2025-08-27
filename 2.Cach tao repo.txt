@@ -1,0 +1,6 @@
+- repository ( repo ) : kho lưu trữ
+- commit : 1 đơn vị làm việc
+- branch : nhánh
+- main/ master : tên CHÍNH của repo ( main repo )
+- merge/ rebase : kết hợp 2 nhánh
+- develop : tên của nhánh, lập trình viên

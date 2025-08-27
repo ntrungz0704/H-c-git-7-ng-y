@@ -1,0 +1,7 @@
+Câu lệnh xóa nhánh
+
+// Xóa 1 nhánh
+- git branch -d < branch name >
+
+// Cập nhật nhánh khi đã xóa trên Repo
+- git push origin -d < branch name >

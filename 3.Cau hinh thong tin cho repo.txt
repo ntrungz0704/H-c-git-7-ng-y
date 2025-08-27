@@ -1,0 +1,9 @@
+- git init [ repo name ]
+- git config -l : xem thông tin cấu hình
+- git config -l --global : xem cấu hình ảnh hường đến toàn bộ REPO
+- git config -l --local : xem cấu hình ở REPO hiện tại
+
+
++ CẤU HÌNH
+- git config --global user.name "Thanh Trung"
+- git config --global user.email "ntrungz0704@gmail.com"

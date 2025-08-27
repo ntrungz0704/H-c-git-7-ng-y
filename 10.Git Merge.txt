@@ -1,0 +1,26 @@
+Bước 1: Chuyển sang nhánh cần nhận code
+- git checkout main
+
+Bước 2: Merge nhánh khác vào
+- git merge feature
+
+=> Lúc này git sẽ lấy tất cả dữ liệu của nhánh feature kết hợp với nhánh main
+
+TH1: nếu ko có conflict -> merge xong luôn
+
+TH2: Nếu có conflict git sẽ báo lỗi và buộc ta phải fix conflict
+
+GIỐNG VẬY
+<<<<<<< HEAD
+Code hiện tại ở nhánh main
+=======
+Code mới từ nhánh feature
+>>>>>>> feature
+
+
+SAU KHI ĐÃ SỮA
+Code hiện tại ở nhánh main
+Code mới từ nhánh feature
+
+- git add " file bị conflict "
+- git commit -m " nội dung "

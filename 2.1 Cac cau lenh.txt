@@ -1,0 +1,13 @@
+- git --help : trợ giúp, hướng dẫn
+- git --version : hiển thị thông tin phiên bản
+- git status : hiển thị trạng thái
+- git log : hiển thị lịch sử
+
+
+- git init [ repo name ] : khởi tạo 1 kho lưu trữ trống
+- git clone [ repo name ] [ clone name ] : khởi tạo 1 bản sao được liên kết với repo
+- git config -l : xem cấu hình hiện tại
+- git config -l [ -- scope ] [ option name ] [ value ]
++ scope : --system  => tất cả người dùng
+		 --global => liên quan đến kho lưu trữ ( repo )
+		 --local => liên quan đến 1 repo

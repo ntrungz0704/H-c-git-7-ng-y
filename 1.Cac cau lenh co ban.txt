@@ -1,0 +1,41 @@
+Các câu lệnh cơ bản để quản lý file và thư mục
+- cd : change directory - thay đổi đường dẫn của thư mục
+=> quay về thư mục phía trước ( thư mục cha )
+
+
+- dir ( MS windows )
+- ls ( Linux, MacOS )
+=> hiển thị danh sách, tập tin, thư mục bên trong thư mục hiện hành
+
+
+- mkdir "Folder name" - tạo ra một thư mục mới
+
+- touch "File name" - tạo ra một tập tin, file mới
+
+- echo "File name" - tạo ra một file mới
+
+- echo : in, hoặc xuất một nội dung
+   echo + " nội dung " + > " File name "
+=> ghi đè ( overwrite )
+
+   echo + " nội dung " + >> "File name "
+=> ghi dòng mới ( new line )
+
+
+- cat : hiển thị nội dung
+
+
+- diff : so sánh sự khác nhau giữa 2 file
+=> diff  " File 1 " " File 2 "
+
+
+- rm : xóa file
+=> rm " File name "
+
+
+- rm -d : xóa thư mục ( thư mục rỗng mới xóa được )
+=> rm -d " Folder name "
+
+
+- rm -r : xóa thư mục ( thư mục rỗng hoặc có dữ liệu đều xóa được )
+=> rm -r " Folder name "

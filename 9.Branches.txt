@@ -1,0 +1,12 @@
+- có nhiều người cùng tham gia
+- thử nghiệm ( cần có hướng khác )
+- quay lại / tiếp tục
+
+
+Câu lệnh
+
+- git branch < branch name > : tạo 1 nhánh mới
+
+- git checkout < branch name > : chuyển sang nhánh khác
+
+- git branch -l : hiển thị các nhánh trong REPO và xem mình đang ở nhánh nào

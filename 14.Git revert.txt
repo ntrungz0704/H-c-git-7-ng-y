@@ -1,0 +1,7 @@
+Quay lại commit trước đây Nhưng không hủy bỏ commit mới
+
+- git revert < commit id >
+
+- git revert HEAD : nếu muốn chỉnh sửa nội dung
+
+- git revert --no-edit HEAD : nếu ko muốn chỉnh sửa nội dung

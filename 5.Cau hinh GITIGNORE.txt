@@ -1,0 +1,19 @@
+dấu # : đây là comment bỏ qua dòng đó
+
+   	  : dòng trống bị bỏ qua
+
+dấu / ở đầu :  chỉ ignore nếu khớp từ thư mục gốc, ko ignore trong thư mục con
+
+dấu / ở cuối : ignore thư mục, toàn bộ thư mục temp và nội dung bên trong
+
+dấu * : khớp bất kỳ ký tự nào, ví dụ *.log ignore tất cả file kết thúc bằng .log
+
+dấu ** : khớp bất kỳ cấp thư mục nào, ví dụ **/temp/ ignore thư mục temp ở bất kỳ dâu
+
+dấu ? : khớp 1 ký tự duy nhất, ví dụ file?.txt  ignore file1.txt, fileA.txt, v.v...
+
+dấu []: Khớp một trong các ký tự bên trong. Ví dụ: file[0-9].txt ignore file0.txt đến file9.txt.
+
+dấu ! (negate): Bỏ ignore (tức là buộc theo dõi). Ví dụ: *.log ignore tất cả .log, nhưng !important.log sẽ theo dõi file đó.
+
+dấu \ (escape): Để ignore ký tự đặc biệt. Ví dụ: \*.txt ignore file tên là *.txt.
